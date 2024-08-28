@@ -4,19 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Max Pilipovic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h2> Hello! I'm Max Pilipovic</h2>
-    <p>  I'm a software engineer from Australia. 
-         This is my corner of the internet, which includes 
-         stuff about my passion and life. 
-    </p>
-    <p>
-        I've been messing around on the internet most my life
-        learning skills and other cool things. You can check 
-        out some articles, personal notes or learn about me.
-    </p>
+    <!-- Heading with nav buttons-->
+     <header> 
+        <h1> Max Pilipovic</h1>
+        <nav> 
+            <button onclick="location.href='#home'">Home</button>
+            <button onclick="location.href='#About'">About</button>
+            <button onclick="location.href='#Skills'">Skills</button>
+            <button onclick="location.href='#Projects'">Projects</button>
+        </nav>
+     </header>
+
+     <section id ="home">
+        <h2> Hello! I'm Max Pilipovic.</h2>
+        <p> I'm a software engineer from Australia.
+            This is my corner of the internet.
+        </p>
+     </section>
+
+     <section id="About">
+        <h2>About</h2>
+        <p>Details about my background and experience.</p>
+     </section>
+
+     <section id="Skills">
+        <h2>Skills</h2>
+        <p>Information about my skills. Programming Languages</p>
+     </section>
+
+     <section id="Projects">
+        <h2>My Projects</h2>
+        <p>A showcase of my projects.</p>
+     </section>
+
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-solid fa-tree"></i>Linkedin</a>
+            <a href=""><i class="fa-solid fa-camera-retro"></i>Instagram</a>
+            <a href=""><i class="fa-solid fa-mug-hot"></i>GitHub</a>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="designer">Max Pilipovic</span></p>
+        </div>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
